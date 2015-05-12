@@ -14,6 +14,7 @@
 		ABE6FEEB1B023B170025A1FC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABE6FEEA1B023B170025A1FC /* Images.xcassets */; };
 		ABE6FEEE1B023B170025A1FC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = ABE6FEEC1B023B170025A1FC /* LaunchScreen.xib */; };
 		ABE6FEFA1B023B170025A1FC /* TicTacTriYoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ABE6FEF91B023B170025A1FC /* TicTacTriYoTests.m */; };
+		ABE6FF051B023D1D0025A1FC /* BoardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABE6FF041B023D1D0025A1FC /* BoardViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		ABE6FEF31B023B170025A1FC /* TicTacTriYoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TicTacTriYoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABE6FEF81B023B170025A1FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ABE6FEF91B023B170025A1FC /* TicTacTriYoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TicTacTriYoTests.m; sourceTree = "<group>"; };
+		ABE6FF031B023D1D0025A1FC /* BoardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BoardViewController.h; sourceTree = "<group>"; };
+		ABE6FF041B023D1D0025A1FC /* BoardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BoardViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +89,8 @@
 				ABE6FEE41B023B170025A1FC /* ViewController.h */,
 				ABE6FEE51B023B170025A1FC /* ViewController.m */,
 				ABE6FEE71B023B170025A1FC /* Main.storyboard */,
+				ABE6FF031B023D1D0025A1FC /* BoardViewController.h */,
+				ABE6FF041B023D1D0025A1FC /* BoardViewController.m */,
 				ABE6FEEA1B023B170025A1FC /* Images.xcassets */,
 				ABE6FEEC1B023B170025A1FC /* LaunchScreen.xib */,
 				ABE6FEDD1B023B170025A1FC /* Supporting Files */,
@@ -222,6 +227,7 @@
 				ABE6FEE61B023B170025A1FC /* ViewController.m in Sources */,
 				ABE6FEE31B023B170025A1FC /* AppDelegate.m in Sources */,
 				ABE6FEE01B023B170025A1FC /* main.m in Sources */,
+				ABE6FF051B023D1D0025A1FC /* BoardViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
