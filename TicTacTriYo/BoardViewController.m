@@ -100,6 +100,7 @@
         if(playerToken==1){self.s9.image = xImg;}
         if(playerToken==2){self.s9.image = oImg;}
     }
+    [self updatePlayerInfo];
 }
 
 /*
