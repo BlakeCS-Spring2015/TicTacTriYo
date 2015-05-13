@@ -16,8 +16,29 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    //add the images
+    oImg = [UIImage imageNamed:@"O.jpg"];
+    xImg = [UIImage imageNamed:@"X.jpg"];
+    //set the player to 1
+    playerToken = 1;
+    //update the label
+    _whoseTurn.text = @"X goes first";
 }
+
+-(void) updatePlayerInfo{
+    if(playerToken ==1){
+        playerToken = 2;
+        _whoseTurn.text = @"It is O turn";
+    NSLog(@"playerToken = %d", playerToken);
+    }
+    else if(playerToken == 2) {
+        playerToken = 1;
+        _whoseTurn.text = @"It is X turn";
+    NSLog(@"playerToken = %d", playerToken);
+    }
+}
+
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
@@ -34,4 +55,6 @@
 }
 */
 
+- (IBAction)buttonReset:(UIButton *)sender {
+}
 @end

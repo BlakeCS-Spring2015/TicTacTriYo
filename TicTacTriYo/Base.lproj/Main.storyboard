@@ -43,47 +43,77 @@
                         <viewControllerLayoutGuide type="bottom" id="Lwr-2u-NK5"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="TOV-Br-Eq2">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="376" height="659"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="board.png" translatesAutoresizingMaskIntoConstraints="NO" id="SKk-MV-WIL">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                                <rect key="frame" x="38" y="180" width="300" height="300"/>
                             </imageView>
                             <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="AMZ-6L-lq4">
-                                <rect key="frame" x="278" y="160" width="131" height="137"/>
+                                <rect key="frame" x="238" y="180" width="100" height="100"/>
                             </imageView>
                             <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="oda-Gz-aSr">
-                                <rect key="frame" x="278" y="299" width="131" height="137"/>
+                                <rect key="frame" x="238" y="280" width="100" height="100"/>
                             </imageView>
                             <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="94u-Tc-QVN">
-                                <rect key="frame" x="142" y="299" width="131" height="137"/>
+                                <rect key="frame" x="138" y="280" width="100" height="100"/>
                             </imageView>
                             <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="WUO-6a-vgw">
-                                <rect key="frame" x="3" y="160" width="131" height="137"/>
+                                <rect key="frame" x="38" y="180" width="100" height="100"/>
                             </imageView>
                             <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="WSQ-Um-9ch">
-                                <rect key="frame" x="3" y="299" width="131" height="137"/>
+                                <rect key="frame" x="38" y="280" width="100" height="100"/>
                             </imageView>
                             <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0Vd-Us-xZb">
-                                <rect key="frame" x="3" y="437" width="131" height="137"/>
+                                <rect key="frame" x="38" y="380" width="100" height="100"/>
                             </imageView>
                             <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Bed-kh-mhi">
-                                <rect key="frame" x="278" y="437" width="131" height="137"/>
+                                <rect key="frame" x="238" y="380" width="100" height="100"/>
                             </imageView>
                             <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hx8-pu-O2Y">
-                                <rect key="frame" x="142" y="437" width="131" height="137"/>
+                                <rect key="frame" x="138" y="380" width="100" height="100"/>
                             </imageView>
                             <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vJC-KP-rvU">
-                                <rect key="frame" x="142" y="160" width="131" height="137"/>
+                                <rect key="frame" x="138" y="180" width="100" height="100"/>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5II-EB-5fe">
+                                <rect key="frame" x="167" y="503" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JGV-Un-oWZ">
+                                <rect key="frame" x="146" y="538" width="85" height="30"/>
+                                <state key="normal" title="Reset Game">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="buttonReset:" destination="zRM-n0-fAH" eventType="touchUpInside" id="Seo-mP-35W"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="376" height="659"/>
+                    <connections>
+                        <outlet property="board" destination="SKk-MV-WIL" id="cg4-nv-Vao"/>
+                        <outlet property="resetButton" destination="JGV-Un-oWZ" id="nSb-W6-ZFZ"/>
+                        <outlet property="s1" destination="WUO-6a-vgw" id="Mwx-KV-W5Z"/>
+                        <outlet property="s2" destination="vJC-KP-rvU" id="BLG-3B-Dpw"/>
+                        <outlet property="s3" destination="AMZ-6L-lq4" id="tpy-s5-GLQ"/>
+                        <outlet property="s4" destination="WSQ-Um-9ch" id="yVl-z5-hiK"/>
+                        <outlet property="s5" destination="94u-Tc-QVN" id="6Ba-rr-pSM"/>
+                        <outlet property="s6" destination="oda-Gz-aSr" id="8y4-rj-TyW"/>
+                        <outlet property="s7" destination="0Vd-Us-xZb" id="a1e-7r-zFL"/>
+                        <outlet property="s8" destination="hx8-pu-O2Y" id="FiP-Ng-5kC"/>
+                        <outlet property="s9" destination="Bed-kh-mhi" id="2iv-pu-PhO"/>
+                        <outlet property="whoseTurn" destination="5II-EB-5fe" id="REh-X6-O4N"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6ad-hN-Idz" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1207" y="230"/>
+            <point key="canvasLocation" x="1106" y="220.5"/>
         </scene>
     </scenes>
     <resources>
