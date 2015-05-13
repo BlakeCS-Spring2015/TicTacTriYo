@@ -15,6 +15,9 @@
 		ABE6FEEE1B023B170025A1FC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = ABE6FEEC1B023B170025A1FC /* LaunchScreen.xib */; };
 		ABE6FEFA1B023B170025A1FC /* TicTacTriYoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ABE6FEF91B023B170025A1FC /* TicTacTriYoTests.m */; };
 		ABE6FF051B023D1D0025A1FC /* BoardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABE6FF041B023D1D0025A1FC /* BoardViewController.m */; };
+		C629B29D1B0383AC008DC061 /* board.png in Resources */ = {isa = PBXBuildFile; fileRef = C629B29C1B0383AC008DC061 /* board.png */; };
+		C629B29F1B0383B0008DC061 /* O.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C629B29E1B0383B0008DC061 /* O.jpg */; };
+		C629B2A11B0383B4008DC061 /* X.png in Resources */ = {isa = PBXBuildFile; fileRef = C629B2A01B0383B4008DC061 /* X.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +46,9 @@
 		ABE6FEF91B023B170025A1FC /* TicTacTriYoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TicTacTriYoTests.m; sourceTree = "<group>"; };
 		ABE6FF031B023D1D0025A1FC /* BoardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BoardViewController.h; sourceTree = "<group>"; };
 		ABE6FF041B023D1D0025A1FC /* BoardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BoardViewController.m; sourceTree = "<group>"; };
+		C629B29C1B0383AC008DC061 /* board.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = board.png; sourceTree = "<group>"; };
+		C629B29E1B0383B0008DC061 /* O.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = O.jpg; sourceTree = "<group>"; };
+		C629B2A01B0383B4008DC061 /* X.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = X.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +107,9 @@
 		ABE6FEDD1B023B170025A1FC /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				C629B2A01B0383B4008DC061 /* X.png */,
+				C629B29E1B0383B0008DC061 /* O.jpg */,
+				C629B29C1B0383AC008DC061 /* board.png */,
 				ABE6FEDE1B023B170025A1FC /* Info.plist */,
 				ABE6FEDF1B023B170025A1FC /* main.m */,
 			);
@@ -204,7 +213,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C629B29D1B0383AC008DC061 /* board.png in Resources */,
 				ABE6FEE91B023B170025A1FC /* Main.storyboard in Resources */,
+				C629B29F1B0383B0008DC061 /* O.jpg in Resources */,
+				C629B2A11B0383B4008DC061 /* X.png in Resources */,
 				ABE6FEEE1B023B170025A1FC /* LaunchScreen.xib in Resources */,
 				ABE6FEEB1B023B170025A1FC /* Images.xcassets in Resources */,
 			);
@@ -420,6 +432,7 @@
 				ABE6FEFF1B023B170025A1FC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ABE6FF001B023B170025A1FC /* Build configuration list for PBXNativeTarget "TicTacTriYoTests" */ = {
 			isa = XCConfigurationList;
@@ -428,6 +441,7 @@
 				ABE6FF021B023B170025A1FC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
