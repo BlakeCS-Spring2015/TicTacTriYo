@@ -36,6 +36,11 @@
         _whoseTurn.text = @"It is X turn";
     NSLog(@"playerToken = %d", playerToken);
     }
+    if([self checkForWin]){
+        UIAlertView *someoneWon = [[UIAlertView alloc] initWithTitle:@"Winner Winner Chicken Dinner!" message:@"Reset" delegate:self cancelButtonTitle:@"OK" otherButtonTitles: nil];
+        [someoneWon show];
+        [self resetBoard];
+    }
 }
 
 -(void)resetBoard{
@@ -103,6 +108,47 @@
     [self updatePlayerInfo];
 }
 
+-(BOOL)checkForWin{
+    //Horizontal
+    if((self.s1.image == self.s2.image) & (self.s2.image == self.s3.image) & (self.s1.image != NULL))
+    {
+        return YES;
+    }
+    if((self.s4.image == self.s5.image) & (self.s5.image == self.s6.image) & (self.s4.image != NULL))
+    {
+        return YES;
+    }
+    if((self.s7.image == self.s8.image) & (self.s8.image == self.s9.image) & (self.s7.image != NULL))
+    {
+        return YES;
+    }
+    //Vertical
+    if((self.s1.image == self.s4.image) & (self.s4.image == self.s7.image) & (self.s1.image != NULL))
+    {
+        return YES;
+    }
+    if((self.s2.image == self.s5.image) & (self.s5.image == self.s8.image) & (self.s2.image != NULL))
+    {
+        return YES;
+    }
+    if((self.s3.image == self.s6.image) & (self.s6.image == self.s9.image) & (self.s3.image != NULL))
+    {
+        return YES;
+    }
+    //Diagonals
+    if((self.s1.image == self.s5.image) & (self.s5.image == self.s9.image) & (self.s1.image != NULL))
+    {
+        return YES;
+    }
+    if((self.s3.image == self.s5.image) & (self.s5.image == self.s7.image) & (self.s3.image != NULL))
+    {
+        return YES;
+    }
+    return NO;
+}
+
+
+
 /*
 #pragma mark - Navigation
 
@@ -114,5 +160,6 @@
 */
 
 - (IBAction)buttonReset:(UIButton *)sender {
+    [self resetBoard];
 }
 @end
