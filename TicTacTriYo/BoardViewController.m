@@ -17,8 +17,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     //add the images
-    oImg = [UIImage imageNamed:@"O.jpg"];
-    xImg = [UIImage imageNamed:@"X.png"];
+    oImg = [UIImage imageNamed:@"O2.jpg"];
+    xImg = [UIImage imageNamed:@"X.jpg"];
     //set the player to 1
     playerToken = 1;
     //update the label
