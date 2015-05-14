@@ -186,7 +186,7 @@
     xImg = [UIImage imageNamed:@"XOlivia.jpg"];
 }
 - (IBAction)fireButtonPressed:(id)sender {
-    oImg = [UIImage imageNamed:@"fireO.jpg"];
+    oImg = [UIImage imageNamed:@"fireOO.jpg"];
     xImg = [UIImage imageNamed:@"fireX.jpg"];
 }
 
