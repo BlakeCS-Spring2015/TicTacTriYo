@@ -189,6 +189,10 @@
     oImg = [UIImage imageNamed:@"fireOO.jpg"];
     xImg = [UIImage imageNamed:@"fireX.jpg"];
 }
+- (IBAction)quinnButtonPressed:(id)sender {
+    oImg = [UIImage imageNamed:@"quinnO.jpg"];
+    xImg = [UIImage imageNamed:@"quinneX.png"];
+}
 
 
 - (IBAction)buttonReset:(UIButton *)sender {

@@ -20,6 +20,7 @@
 @property (weak, nonatomic) IBOutlet UIButton *coolioButton;
 @property (weak, nonatomic) IBOutlet UIButton *oliviaButton;
 @property (weak, nonatomic) IBOutlet UIButton *fireButton;
+@property (weak, nonatomic) IBOutlet UIButton *quinnButton;
 @property (weak, nonatomic) IBOutlet UIImageView *s1;
 @property (weak, nonatomic) IBOutlet UIImageView *s2;
 @property (weak, nonatomic) IBOutlet UIImageView *s3;

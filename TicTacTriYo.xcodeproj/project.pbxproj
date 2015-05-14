@@ -23,6 +23,8 @@
 		C62ECBD31B04DDEE00DAFF9A /* fireX.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C62ECBD21B04DDEE00DAFF9A /* fireX.jpg */; };
 		C62ECBD51B04DDF100DAFF9A /* fireO.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C62ECBD41B04DDF100DAFF9A /* fireO.jpg */; };
 		C62ECBD71B04DEFB00DAFF9A /* fireOO.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C62ECBD61B04DEFB00DAFF9A /* fireOO.jpg */; };
+		C62ECBD91B04E01000DAFF9A /* quinneX.png in Resources */ = {isa = PBXBuildFile; fileRef = C62ECBD81B04E01000DAFF9A /* quinneX.png */; };
+		C62ECBDB1B04E01500DAFF9A /* quinnO.JPG in Resources */ = {isa = PBXBuildFile; fileRef = C62ECBDA1B04E01500DAFF9A /* quinnO.JPG */; };
 		C6E317311B04003D007B0CB3 /* Xcoolio.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C6E317301B04003D007B0CB3 /* Xcoolio.jpg */; };
 		C6E317331B040073007B0CB3 /* OCoolio.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C6E317321B040073007B0CB3 /* OCoolio.jpg */; };
 /* End PBXBuildFile section */
@@ -61,6 +63,8 @@
 		C62ECBD21B04DDEE00DAFF9A /* fireX.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fireX.jpg; sourceTree = "<group>"; };
 		C62ECBD41B04DDF100DAFF9A /* fireO.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fireO.jpg; sourceTree = "<group>"; };
 		C62ECBD61B04DEFB00DAFF9A /* fireOO.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fireOO.jpg; sourceTree = "<group>"; };
+		C62ECBD81B04E01000DAFF9A /* quinneX.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = quinneX.png; sourceTree = "<group>"; };
+		C62ECBDA1B04E01500DAFF9A /* quinnO.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = quinnO.JPG; sourceTree = "<group>"; };
 		C6E317301B04003D007B0CB3 /* Xcoolio.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Xcoolio.jpg; sourceTree = "<group>"; };
 		C6E317321B040073007B0CB3 /* OCoolio.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = OCoolio.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -126,8 +130,10 @@
 				C62ECBD01B04DC2800DAFF9A /* classicX.png */,
 				C62ECBCA1B04DBD700DAFF9A /* XOlivia.JPG */,
 				C62ECBCE1B04DC2500DAFF9A /* classicO.jpg */,
+				C62ECBDA1B04E01500DAFF9A /* quinnO.JPG */,
 				C62ECBD21B04DDEE00DAFF9A /* fireX.jpg */,
 				ABE6FEDE1B023B170025A1FC /* Info.plist */,
+				C62ECBD81B04E01000DAFF9A /* quinneX.png */,
 				C62ECBD41B04DDF100DAFF9A /* fireO.jpg */,
 				C6E317321B040073007B0CB3 /* OCoolio.jpg */,
 				C62ECBCC1B04DBDA00DAFF9A /* OOlivia.JPG */,
@@ -242,6 +248,8 @@
 				C6E317331B040073007B0CB3 /* OCoolio.jpg in Resources */,
 				C62ECBCF1B04DC2500DAFF9A /* classicO.jpg in Resources */,
 				C62ECBD71B04DEFB00DAFF9A /* fireOO.jpg in Resources */,
+				C62ECBDB1B04E01500DAFF9A /* quinnO.JPG in Resources */,
+				C62ECBD91B04E01000DAFF9A /* quinneX.png in Resources */,
 				C6E317311B04003D007B0CB3 /* Xcoolio.jpg in Resources */,
 				C62ECBCD1B04DBDA00DAFF9A /* OOlivia.JPG in Resources */,
 				C62ECBD51B04DDF100DAFF9A /* fireO.jpg in Resources */,

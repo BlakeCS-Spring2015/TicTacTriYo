@@ -110,12 +110,21 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZyP-QK-jxB">
-                                <rect key="frame" x="150" y="66" width="77" height="30"/>
+                                <rect key="frame" x="38" y="66" width="77" height="30"/>
                                 <state key="normal" title="Fire Theme">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
                                     <action selector="fireButtonPressed:" destination="zRM-n0-fAH" eventType="touchUpInside" id="SHu-rG-Q8d"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UPq-VH-LAD">
+                                <rect key="frame" x="230" y="66" width="92" height="30"/>
+                                <state key="normal" title="Quinn Theme">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="quinnButtonPressed:" destination="zRM-n0-fAH" eventType="touchUpInside" id="PVS-nC-cbb"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -128,6 +137,7 @@
                         <outlet property="coolioButton" destination="Rcl-kc-kgv" id="aTm-oD-Gcm"/>
                         <outlet property="fireButton" destination="ZyP-QK-jxB" id="Ri1-KM-XOL"/>
                         <outlet property="oliviaButton" destination="7I0-M0-yHU" id="PGz-O2-bqx"/>
+                        <outlet property="quinnButton" destination="UPq-VH-LAD" id="1Cb-WY-PAb"/>
                         <outlet property="resetButton" destination="JGV-Un-oWZ" id="nSb-W6-ZFZ"/>
                         <outlet property="s1" destination="WUO-6a-vgw" id="Mwx-KV-W5Z"/>
                         <outlet property="s2" destination="vJC-KP-rvU" id="BLG-3B-Dpw"/>
