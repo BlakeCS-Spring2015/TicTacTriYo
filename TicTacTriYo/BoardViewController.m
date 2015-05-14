@@ -181,6 +181,15 @@
     xImg = [UIImage imageNamed:@"Xcoolio.jpg"];
     
 }
+- (IBAction)caitlinButtonPressed:(id)sender {
+    oImg = [UIImage imageNamed:@"OOlivia.jpg"];
+    xImg = [UIImage imageNamed:@"XOlivia.jpg"];
+}
+- (IBAction)fireButtonPressed:(id)sender {
+    oImg = [UIImage imageNamed:@"fireO.jpg"];
+    xImg = [UIImage imageNamed:@"fireX.jpg"];
+}
+
 
 - (IBAction)buttonReset:(UIButton *)sender {
     [self resetBoard];

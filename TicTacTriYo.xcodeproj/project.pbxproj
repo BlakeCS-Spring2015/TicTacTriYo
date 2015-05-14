@@ -20,6 +20,8 @@
 		C62ECBCD1B04DBDA00DAFF9A /* OOlivia.JPG in Resources */ = {isa = PBXBuildFile; fileRef = C62ECBCC1B04DBDA00DAFF9A /* OOlivia.JPG */; };
 		C62ECBCF1B04DC2500DAFF9A /* classicO.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C62ECBCE1B04DC2500DAFF9A /* classicO.jpg */; };
 		C62ECBD11B04DC2800DAFF9A /* classicX.png in Resources */ = {isa = PBXBuildFile; fileRef = C62ECBD01B04DC2800DAFF9A /* classicX.png */; };
+		C62ECBD31B04DDEE00DAFF9A /* fireX.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C62ECBD21B04DDEE00DAFF9A /* fireX.jpg */; };
+		C62ECBD51B04DDF100DAFF9A /* fireO.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C62ECBD41B04DDF100DAFF9A /* fireO.jpg */; };
 		C6E317311B04003D007B0CB3 /* Xcoolio.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C6E317301B04003D007B0CB3 /* Xcoolio.jpg */; };
 		C6E317331B040073007B0CB3 /* OCoolio.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C6E317321B040073007B0CB3 /* OCoolio.jpg */; };
 /* End PBXBuildFile section */
@@ -55,6 +57,8 @@
 		C62ECBCC1B04DBDA00DAFF9A /* OOlivia.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = OOlivia.JPG; sourceTree = "<group>"; };
 		C62ECBCE1B04DC2500DAFF9A /* classicO.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = classicO.jpg; sourceTree = "<group>"; };
 		C62ECBD01B04DC2800DAFF9A /* classicX.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = classicX.png; sourceTree = "<group>"; };
+		C62ECBD21B04DDEE00DAFF9A /* fireX.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fireX.jpg; sourceTree = "<group>"; };
+		C62ECBD41B04DDF100DAFF9A /* fireO.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fireO.jpg; sourceTree = "<group>"; };
 		C6E317301B04003D007B0CB3 /* Xcoolio.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Xcoolio.jpg; sourceTree = "<group>"; };
 		C6E317321B040073007B0CB3 /* OCoolio.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = OCoolio.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -120,7 +124,9 @@
 				C62ECBD01B04DC2800DAFF9A /* classicX.png */,
 				C62ECBCA1B04DBD700DAFF9A /* XOlivia.JPG */,
 				C62ECBCE1B04DC2500DAFF9A /* classicO.jpg */,
+				C62ECBD21B04DDEE00DAFF9A /* fireX.jpg */,
 				ABE6FEDE1B023B170025A1FC /* Info.plist */,
+				C62ECBD41B04DDF100DAFF9A /* fireO.jpg */,
 				C6E317321B040073007B0CB3 /* OCoolio.jpg */,
 				C62ECBCC1B04DBDA00DAFF9A /* OOlivia.JPG */,
 				ABE6FEDF1B023B170025A1FC /* main.m */,
@@ -228,11 +234,13 @@
 				C629B29D1B0383AC008DC061 /* board.png in Resources */,
 				ABE6FEE91B023B170025A1FC /* Main.storyboard in Resources */,
 				C62ECBCB1B04DBD700DAFF9A /* XOlivia.JPG in Resources */,
+				C62ECBD31B04DDEE00DAFF9A /* fireX.jpg in Resources */,
 				C62ECBD11B04DC2800DAFF9A /* classicX.png in Resources */,
 				C6E317331B040073007B0CB3 /* OCoolio.jpg in Resources */,
 				C62ECBCF1B04DC2500DAFF9A /* classicO.jpg in Resources */,
 				C6E317311B04003D007B0CB3 /* Xcoolio.jpg in Resources */,
 				C62ECBCD1B04DBDA00DAFF9A /* OOlivia.JPG in Resources */,
+				C62ECBD51B04DDF100DAFF9A /* fireO.jpg in Resources */,
 				ABE6FEEE1B023B170025A1FC /* LaunchScreen.xib in Resources */,
 				ABE6FEEB1B023B170025A1FC /* Images.xcassets in Resources */,
 			);
