@@ -16,8 +16,12 @@
 		ABE6FEFA1B023B170025A1FC /* TicTacTriYoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ABE6FEF91B023B170025A1FC /* TicTacTriYoTests.m */; };
 		ABE6FF051B023D1D0025A1FC /* BoardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABE6FF041B023D1D0025A1FC /* BoardViewController.m */; };
 		C629B29D1B0383AC008DC061 /* board.png in Resources */ = {isa = PBXBuildFile; fileRef = C629B29C1B0383AC008DC061 /* board.png */; };
-		C6E317311B04003D007B0CB3 /* X.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C6E317301B04003D007B0CB3 /* X.jpg */; };
-		C6E317331B040073007B0CB3 /* O2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C6E317321B040073007B0CB3 /* O2.jpg */; };
+		C62ECBCB1B04DBD700DAFF9A /* XOlivia.JPG in Resources */ = {isa = PBXBuildFile; fileRef = C62ECBCA1B04DBD700DAFF9A /* XOlivia.JPG */; };
+		C62ECBCD1B04DBDA00DAFF9A /* OOlivia.JPG in Resources */ = {isa = PBXBuildFile; fileRef = C62ECBCC1B04DBDA00DAFF9A /* OOlivia.JPG */; };
+		C62ECBCF1B04DC2500DAFF9A /* classicO.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C62ECBCE1B04DC2500DAFF9A /* classicO.jpg */; };
+		C62ECBD11B04DC2800DAFF9A /* classicX.png in Resources */ = {isa = PBXBuildFile; fileRef = C62ECBD01B04DC2800DAFF9A /* classicX.png */; };
+		C6E317311B04003D007B0CB3 /* Xcoolio.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C6E317301B04003D007B0CB3 /* Xcoolio.jpg */; };
+		C6E317331B040073007B0CB3 /* OCoolio.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C6E317321B040073007B0CB3 /* OCoolio.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,8 +51,12 @@
 		ABE6FF031B023D1D0025A1FC /* BoardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BoardViewController.h; sourceTree = "<group>"; };
 		ABE6FF041B023D1D0025A1FC /* BoardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BoardViewController.m; sourceTree = "<group>"; };
 		C629B29C1B0383AC008DC061 /* board.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = board.png; sourceTree = "<group>"; };
-		C6E317301B04003D007B0CB3 /* X.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = X.jpg; sourceTree = "<group>"; };
-		C6E317321B040073007B0CB3 /* O2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = O2.jpg; sourceTree = "<group>"; };
+		C62ECBCA1B04DBD700DAFF9A /* XOlivia.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = XOlivia.JPG; sourceTree = "<group>"; };
+		C62ECBCC1B04DBDA00DAFF9A /* OOlivia.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = OOlivia.JPG; sourceTree = "<group>"; };
+		C62ECBCE1B04DC2500DAFF9A /* classicO.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = classicO.jpg; sourceTree = "<group>"; };
+		C62ECBD01B04DC2800DAFF9A /* classicX.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = classicX.png; sourceTree = "<group>"; };
+		C6E317301B04003D007B0CB3 /* Xcoolio.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Xcoolio.jpg; sourceTree = "<group>"; };
+		C6E317321B040073007B0CB3 /* OCoolio.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = OCoolio.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,10 +115,14 @@
 		ABE6FEDD1B023B170025A1FC /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				C6E317301B04003D007B0CB3 /* X.jpg */,
+				C6E317301B04003D007B0CB3 /* Xcoolio.jpg */,
 				C629B29C1B0383AC008DC061 /* board.png */,
+				C62ECBD01B04DC2800DAFF9A /* classicX.png */,
+				C62ECBCA1B04DBD700DAFF9A /* XOlivia.JPG */,
+				C62ECBCE1B04DC2500DAFF9A /* classicO.jpg */,
 				ABE6FEDE1B023B170025A1FC /* Info.plist */,
-				C6E317321B040073007B0CB3 /* O2.jpg */,
+				C6E317321B040073007B0CB3 /* OCoolio.jpg */,
+				C62ECBCC1B04DBDA00DAFF9A /* OOlivia.JPG */,
 				ABE6FEDF1B023B170025A1FC /* main.m */,
 			);
 			name = "Supporting Files";
@@ -215,8 +227,12 @@
 			files = (
 				C629B29D1B0383AC008DC061 /* board.png in Resources */,
 				ABE6FEE91B023B170025A1FC /* Main.storyboard in Resources */,
-				C6E317331B040073007B0CB3 /* O2.jpg in Resources */,
-				C6E317311B04003D007B0CB3 /* X.jpg in Resources */,
+				C62ECBCB1B04DBD700DAFF9A /* XOlivia.JPG in Resources */,
+				C62ECBD11B04DC2800DAFF9A /* classicX.png in Resources */,
+				C6E317331B040073007B0CB3 /* OCoolio.jpg in Resources */,
+				C62ECBCF1B04DC2500DAFF9A /* classicO.jpg in Resources */,
+				C6E317311B04003D007B0CB3 /* Xcoolio.jpg in Resources */,
+				C62ECBCD1B04DBDA00DAFF9A /* OOlivia.JPG in Resources */,
 				ABE6FEEE1B023B170025A1FC /* LaunchScreen.xib in Resources */,
 				ABE6FEEB1B023B170025A1FC /* Images.xcassets in Resources */,
 			);

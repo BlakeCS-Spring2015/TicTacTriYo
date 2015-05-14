@@ -17,8 +17,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     //add the images
-    oImg = [UIImage imageNamed:@"O2.jpg"];
-    xImg = [UIImage imageNamed:@"X.jpg"];
+    oImg = [UIImage imageNamed:@"classicO.jpg"];
+    xImg = [UIImage imageNamed:@"classicX.png"];
     //set the player to 1
     playerToken = 1;
     //update the label
@@ -26,16 +26,19 @@
 }
 
 -(void) updatePlayerInfo{
+    //Switch back and forth between players
+    
     if(playerToken ==1){
         playerToken = 2;
         _whoseTurn.text = @"It is O turn";
-    NSLog(@"playerToken = %d", playerToken);
     }
     else if(playerToken == 2) {
         playerToken = 1;
         _whoseTurn.text = @"It is X turn";
-    NSLog(@"playerToken = %d", playerToken);
     }
+    
+    // Give alerts when game is over
+    
     if([self checkForWin]){
         UIAlertView *someoneWon = [[UIAlertView alloc] initWithTitle:@"Winner Winner Chicken Dinner!" message:nil delegate:self cancelButtonTitle:@"Reset Board" otherButtonTitles: nil];
         [someoneWon show];
@@ -48,6 +51,7 @@
     }
 }
 
+//Reset Images
 -(void)resetBoard{
     self.s1.image = NULL;
     self.s2.image = NULL;
@@ -71,6 +75,7 @@
     // Dispose of any resources that can be recreated.
 }
 
+//Recognize the touches
 -(void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event{
     UITouch *touch = [[event allTouches] anyObject];
     if(CGRectContainsPoint([self.s1 frame], [touch locationInView:self.view])){
@@ -113,6 +118,8 @@
     [self updatePlayerInfo];
 }
 
+//All possible wins
+
 -(BOOL)checkForWin{
     //Horizontal
     if((self.s1.image == self.s2.image) & (self.s2.image == self.s3.image) & (self.s1.image != NULL))
@@ -152,7 +159,7 @@
     return NO;
 }
 
-
+//
 -(BOOL)checkForTie{
     if ((self.s1.image != NULL) & (self.s2.image != NULL) & (self.s3.image != NULL) & (self.s4.image != NULL) & (self.s5.image != NULL) & (self.s6.image != NULL) & (self.s7.image != NULL) & (self.s8.image != NULL) & (self.s9.image != NULL)) {
         return YES;
@@ -169,6 +176,11 @@
     // Pass the selected object to the new view controller.
 }
 */
+- (IBAction)coolioButtonPressed:(UIButton*)sender {
+    oImg = [UIImage imageNamed:@"OCoolio.jpg"];
+    xImg = [UIImage imageNamed:@"Xcoolio.jpg"];
+    
+}
 
 - (IBAction)buttonReset:(UIButton *)sender {
     [self resetBoard];

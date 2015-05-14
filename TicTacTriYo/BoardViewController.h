@@ -17,6 +17,9 @@
 @property (weak, nonatomic) IBOutlet UIImageView *board;
 @property (weak, nonatomic) IBOutlet UILabel *whoseTurn;
 @property (weak, nonatomic) IBOutlet UIButton *resetButton;
+@property (weak, nonatomic) IBOutlet UIButton *coolioButton;
+@property (weak, nonatomic) IBOutlet UIButton *oliviaButton;
+@property (weak, nonatomic) IBOutlet UIButton *fireButton;
 @property (weak, nonatomic) IBOutlet UIImageView *s1;
 @property (weak, nonatomic) IBOutlet UIImageView *s2;
 @property (weak, nonatomic) IBOutlet UIImageView *s3;
