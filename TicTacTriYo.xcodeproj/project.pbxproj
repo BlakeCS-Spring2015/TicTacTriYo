@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AB9A56F81B04E1060043A379 /* touchToBegin.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AB9A56F71B04E1060043A379 /* touchToBegin.jpg */; };
 		ABE6FEE01B023B170025A1FC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ABE6FEDF1B023B170025A1FC /* main.m */; };
 		ABE6FEE31B023B170025A1FC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ABE6FEE21B023B170025A1FC /* AppDelegate.m */; };
 		ABE6FEE61B023B170025A1FC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABE6FEE51B023B170025A1FC /* ViewController.m */; };
@@ -41,6 +42,7 @@
 
 /* Begin PBXFileReference section */
 		AB9A56F61B04DE7A0043A379 /* plastic-explosive.regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "plastic-explosive.regular.ttf"; sourceTree = "<group>"; };
+		AB9A56F71B04E1060043A379 /* touchToBegin.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = touchToBegin.jpg; sourceTree = "<group>"; };
 		ABE6FEDA1B023B170025A1FC /* TicTacTriYo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TicTacTriYo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABE6FEDE1B023B170025A1FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ABE6FEDF1B023B170025A1FC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -126,6 +128,7 @@
 		ABE6FEDD1B023B170025A1FC /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				AB9A56F71B04E1060043A379 /* touchToBegin.jpg */,
 				AB9A56F61B04DE7A0043A379 /* plastic-explosive.regular.ttf */,
 				C6E317301B04003D007B0CB3 /* Xcoolio.jpg */,
 				C629B29C1B0383AC008DC061 /* board.png */,
@@ -252,6 +255,7 @@
 				C62ECBD71B04DEFB00DAFF9A /* fireOO.jpg in Resources */,
 				C62ECBDB1B04E01500DAFF9A /* quinnO.JPG in Resources */,
 				C62ECBD91B04E01000DAFF9A /* quinneX.png in Resources */,
+				AB9A56F81B04E1060043A379 /* touchToBegin.jpg in Resources */,
 				C6E317311B04003D007B0CB3 /* Xcoolio.jpg in Resources */,
 				C62ECBCD1B04DBDA00DAFF9A /* OOlivia.JPG in Resources */,
 				C62ECBD51B04DDF100DAFF9A /* fireO.jpg in Resources */,

@@ -3,6 +3,11 @@
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="plastic-explosive.regular.ttf">
+            <string>PlasticExplosive</string>
+        </mutableArray>
+    </customFonts>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
@@ -16,16 +21,36 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="touchToBegin.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="kYe-pU-w0O">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sw1-Qo-Pc4">
-                                <rect key="frame" x="147" y="327" width="120" height="30"/>
+                                <rect key="frame" x="287" y="384" width="68" height="37"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
-                                <state key="normal" title="touch to begin yo">
+                                <state key="normal" title="touch to">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
                                     <segue destination="zRM-n0-fAH" kind="show" id="Wga-29-s5t"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vkv-K3-rKA">
+                                <rect key="frame" x="292" y="406" width="59" height="30"/>
+                                <state key="normal" title="begin yo">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="zRM-n0-fAH" kind="show" id="DJS-re-F0V"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="tic tac yo" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Rs-5y-Pqt">
+                                <rect key="frame" x="50" y="38" width="348" height="260"/>
+                                <fontDescription key="fontDescription" name="PlasticExplosive" family="Plastic Explosive" pointSize="84"/>
+                                <color key="textColor" red="1" green="0.43790353589999997" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
@@ -92,15 +117,6 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rcl-kc-kgv">
-                                <rect key="frame" x="38" y="28" width="96" height="30"/>
-                                <state key="normal" title="Coolio Theme">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="coolioButtonPressed:" destination="zRM-n0-fAH" eventType="touchUpInside" id="EAs-Km-vN4"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7I0-M0-yHU">
                                 <rect key="frame" x="193" y="28" width="167" height="30"/>
                                 <state key="normal" title="Caitlin and Olivia Theme">
@@ -126,6 +142,16 @@
                                 </state>
                                 <connections>
                                     <action selector="quinnButtonPressed:" destination="zRM-n0-fAH" eventType="touchUpInside" id="PVS-nC-cbb"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rcl-kc-kgv">
+                                <rect key="frame" x="23" y="28" width="130" height="35"/>
+                                <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="15"/>
+                                <state key="normal" title="coolio theme">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="coolioButtonPressed:" destination="zRM-n0-fAH" eventType="touchUpInside" id="EAs-Km-vN4"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -159,5 +185,9 @@
     </scenes>
     <resources>
         <image name="board.png" width="400" height="400"/>
+        <image name="touchToBegin.jpg" width="224" height="405.6337890625"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="Wga-29-s5t"/>
+    </inferredMetricsTieBreakers>
 </document>
