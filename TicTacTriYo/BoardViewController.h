@@ -30,6 +30,7 @@
 -(void) updatePlayerInfo;
 -(void) resetBoard;
 -(BOOL) checkForWin;
+-(BOOL) checkForTie;
 
 @end
 

@@ -37,8 +37,13 @@
     NSLog(@"playerToken = %d", playerToken);
     }
     if([self checkForWin]){
-        UIAlertView *someoneWon = [[UIAlertView alloc] initWithTitle:@"Winner Winner Chicken Dinner!" message:@"Reset" delegate:self cancelButtonTitle:@"OK" otherButtonTitles: nil];
+        UIAlertView *someoneWon = [[UIAlertView alloc] initWithTitle:@"Winner Winner Chicken Dinner!" message:nil delegate:self cancelButtonTitle:@"Reset Board" otherButtonTitles: nil];
         [someoneWon show];
+        [self resetBoard];
+    }
+    if ([self checkForTie]) {
+        UIAlertView *gameTie = [[UIAlertView alloc] initWithTitle:@"You Both Lose...." message:nil delegate:self cancelButtonTitle:@"Reset Board" otherButtonTitles: nil];
+        [gameTie show];
         [self resetBoard];
     }
 }
@@ -148,6 +153,12 @@
 }
 
 
+-(BOOL)checkForTie{
+    if ((self.s1.image != NULL) & (self.s2.image != NULL) & (self.s3.image != NULL) & (self.s4.image != NULL) & (self.s5.image != NULL) & (self.s6.image != NULL) & (self.s7.image != NULL) & (self.s8.image != NULL) & (self.s9.image != NULL)) {
+        return YES;
+    }
+    return NO;
+}
 
 /*
 #pragma mark - Navigation
