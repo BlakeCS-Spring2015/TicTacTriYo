@@ -40,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AB9A56F61B04DE7A0043A379 /* plastic-explosive.regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "plastic-explosive.regular.ttf"; sourceTree = "<group>"; };
 		ABE6FEDA1B023B170025A1FC /* TicTacTriYo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TicTacTriYo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABE6FEDE1B023B170025A1FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ABE6FEDF1B023B170025A1FC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -125,6 +126,7 @@
 		ABE6FEDD1B023B170025A1FC /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				AB9A56F61B04DE7A0043A379 /* plastic-explosive.regular.ttf */,
 				C6E317301B04003D007B0CB3 /* Xcoolio.jpg */,
 				C629B29C1B0383AC008DC061 /* board.png */,
 				C62ECBD01B04DC2800DAFF9A /* classicX.png */,
